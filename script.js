@@ -26,3 +26,15 @@ document.addEventListener('keydown', (event) => {
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+document.querySelectorAll('.copy-pix').forEach((button) => {
+  button.addEventListener('click', async () => {
+    const feedback = button.closest('.pix-copy').querySelector('.pix-feedback');
+    try {
+      await navigator.clipboard.writeText(button.dataset.pixKey);
+      feedback.textContent = 'Chave Pix copiada.';
+    } catch (error) {
+      feedback.textContent = 'Não foi possível copiar automaticamente. Selecione a chave manualmente.';
+    }
+  });
+});
