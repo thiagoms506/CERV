@@ -2,7 +2,7 @@
 
 Site institucional da Casa CERV - Centro Evangélico de Reabilitação de Vidas.
 
-Esta é a primeira versão do site, desenvolvida com HTML5, CSS3 e JavaScript puro. Não há backend, banco de dados ou integração de pagamentos nesta etapa.
+Esta é a primeira versão do site, desenvolvida com HTML5, CSS3 e JavaScript puro. Não há backend ou banco de dados nesta etapa. A página apresenta uma chave Pix institucional informada no conteúdo atual do projeto.
 
 ## Objetivo
 
@@ -13,6 +13,7 @@ Apresentar a Casa CERV, seu trabalho de recuperação de vidas, o apoio às fam�
 ```text
 .
 ├── docs/                 # Materiais institucionais de referência
+├── img cerv/             # Fotografias reais selecionadas para o site
 ├── index.html            # Estrutura e conteúdo da página
 ├── styles.css            # Estilos, responsividade e componentes visuais
 ├── script.js             # Menu móvel e pequenas interações
@@ -39,10 +40,12 @@ Antes da publicação pública, confirmar com a instituição:
 
 - Canais oficiais de atendimento, endereço e horários.
 - Processo de acolhimento, público atendido e duração do programa.
-- Dados de doação, Pix e demais formas de contribuição.
+- Demais formas de contribuição e informações de prestação de contas.
 - Nomes, fotos, relatos e parcerias que tenham autorização para divulgação.
 
-O site não publica testemunhos, dados pessoais, imagens de pessoas atendidas ou informações de pagamento nesta versão.
+O site não publica testemunhos ou dados pessoais de pessoas atendidas nesta versão.
+
+As fotografias utilizadas ficam em `img cerv/`. A seleção atual prioriza registros do espaço, convivência, atividades e rotina, aplicados com cortes responsivos nos blocos existentes.
 
 ## Dependências
 
